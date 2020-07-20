@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.aslam.dmh",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 1017,
+      "versionName": "1.0.17",
+      "enabled": true,
+      "outputFile": "app-release.apk"
+    }
+  ]
+}

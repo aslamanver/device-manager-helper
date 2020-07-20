@@ -1,0 +1,19 @@
+
+D
+java:S1444")Make this "public static PIN" field final(©ğÔ¬ıÿÿÿÿ
+@
+java:S1444"*Make this "public static PATH" field final(ıã¾
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(ŞüÙÉùÿÿÿÿ
+j
+java:S1104"OMake PIN a static final constant or non-public and provide accessors if needed.(©ğÔ¬ıÿÿÿÿ
+e
+java:S3008"ORename this field "PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıã¾
+Q
+java:S2696("6Make the enclosing method "static" or remove this set.(ŞüÙÉùÿÿÿÿ
+i
+java:S3008"NRename this field "PIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ğÔ¬ıÿÿÿÿ
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(ÍÈú«ÿÿÿÿÿ
+f
+java:S1104"PMake PATH a static final constant or non-public and provide accessors if needed.(ıã¾

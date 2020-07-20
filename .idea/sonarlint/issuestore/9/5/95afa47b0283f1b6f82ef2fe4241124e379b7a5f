@@ -1,0 +1,7 @@
+
+Y	java:S110"=This class has 10 parents which is greater than 5 authorized.(¢Çë8ÄóüÛ¶.
+P	java:S125@"<This block of commented-out lines of code should be removed.(Ş˜ÆY
+<
+java:S10754"&Remove this hard-coded path-delimiter.(®ÍÊ÷
+B
+java:S1602",Remove useless curly braces around statement(¹äÁ˜

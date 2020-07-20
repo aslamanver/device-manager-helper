@@ -1,0 +1,31 @@
+
+Q
+java:S1874"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ
+N
+java:S1197E"8Move the array designator from the variable to the type.(²ÙÜœ
+N
+java:S1874b"3Remove this use of "setProgress"; it is deprecated.(í­æÑúÿÿÿÿ
+k
+java:S1450"VRemove the "context" field and declare it as a local variable in the relevant methods.(êİç
+M
+java:S18743"2Remove this use of "setMessage"; it is deprecated.(“¶ğ÷şÿÿÿÿ
+I
+java:S1874m"3Remove this use of "setProgress"; it is deprecated.(®ÿŒÓ
+i
+java:S2095D"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(¦²÷‹øÿÿÿÿ
+n
+java:S1602)"SRemove useless curly braces around statement and then remove useless return keyword(ŒĞ‘ıÿÿÿÿ
+L
+java:S18744"6Remove this use of "ProgressDialog"; it is deprecated.(•‹Ñï
+Q
+java:S18742"6Remove this use of "ProgressDialog"; it is deprecated.(ğíµüÿÿÿÿ
+N
+java:S18744"8Remove this use of "setProgressStyle"; it is deprecated.(•‹Ñï
+@
+java:S1068"+Remove this unused "context" private field.(êİç
+R
+java:S1117J"<Rename "progress" which hides the field declared at line 30.(Ä»éø
+N
+java:S18744"8Remove this use of "STYLE_HORIZONTAL"; it is deprecated.(•‹Ñï
+g
+java:S2095C"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(®ÍØĞ
