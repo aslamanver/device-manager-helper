@@ -1,10 +1,10 @@
 
+Y	java:S110"=This class has 10 parents which is greater than 5 authorized.(„¸ÌĞ8®šÊÚ¶.
+P
+java:S1128".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8²¦÷Ú¶.
 ]
 java:S1128";Remove this unused import 'android.content.pm.PackageInfo'.(¡«³óüÿÿÿÿ8Ó…ôÚ¶.
 a
 java:S1128"?Remove this unused import 'android.content.pm.ApplicationInfo'.(‰­üÿÿÿÿ8Ó…ôÚ¶.
 Y
 java:S1874+"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(îÜòè8ĞöúÚ¶.
-Y	java:S110"=This class has 10 parents which is greater than 5 authorized.(„¸ÌĞ8®šÊÚ¶.
-P
-java:S1128".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8²¦÷Ú¶.

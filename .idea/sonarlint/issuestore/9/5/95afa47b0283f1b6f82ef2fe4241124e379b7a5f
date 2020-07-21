@@ -1,7 +1,8 @@
 
-Y	java:S110"=This class has 10 parents which is greater than 5 authorized.(¢Çë8ÄóüÛ¶.
-P	java:S125@"<This block of commented-out lines of code should be removed.(Ş˜ÆY
-<
-java:S10754"&Remove this hard-coded path-delimiter.(®ÍÊ÷
+c
+java:S2184O"FCast one of the operands of this multiplication operation to a "long".(Œèš¶8ì×Úş¶.
+C
+java:S1075/"&Remove this hard-coded path-delimiter.(®ÍÊ÷8”æı¶.
+Y	java:S110"=This class has 10 parents which is greater than 5 authorized.(¢Çë8ŠÿĞş¶.
 B
-java:S1602",Remove useless curly braces around statement(¹äÁ˜
+java:S1602",Remove useless curly braces around statement(¹äÁ˜

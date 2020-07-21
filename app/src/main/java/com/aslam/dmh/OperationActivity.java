@@ -2,6 +2,7 @@ package com.aslam.dmh;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Toast;
 
@@ -17,6 +18,8 @@ import java.net.URISyntaxException;
 public class OperationActivity extends BaseActivity<ActivityOperationBinding> {
 
     int downloadStatus = 0;
+    Handler downloadWatchHandler = new Handler();
+    Runnable downloadWatchRunnable;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,14 +40,6 @@ public class OperationActivity extends BaseActivity<ActivityOperationBinding> {
         }
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        if (downloadStatus == DownloadingTask.ACTION_FAILED) {
-            downloadDM();
-        }
-    }
-
     private void downloadDM() {
         try {
             URI uri = new URI(HelperBroadcastReceiver.URL);
@@ -54,17 +49,34 @@ public class OperationActivity extends BaseActivity<ActivityOperationBinding> {
                 if (action == DownloadingTask.ACTION_STARTED) {
                     downloadStatus = action;
                     getBinding().progressBar.setVisibility(View.VISIBLE);
+                    getBinding().txtStatus.setText("Downloading updates started.");
+                } else if (action == DownloadingTask.ACTION_PROGRESS) {
+                    downloadStatus = action;
+                    getBinding().progressBar.setVisibility(View.VISIBLE);
+                    getBinding().txtStatus.setText("Downloading " + progress + "%");
                 } else if (action == DownloadingTask.ACTION_COMPLETED) {
                     downloadStatus = action;
+                    getBinding().progressBar.setVisibility(View.VISIBLE);
+                    getBinding().txtStatus.setText("Installing application...");
                     installDM(path);
                 } else if (action == DownloadingTask.ACTION_FAILED) {
                     downloadStatus = action;
                     getBinding().txtStatus.setText("Downloading updates were failed. Please try again in few minutes.");
                     getBinding().progressBar.setVisibility(View.GONE);
-                    // completeTask();
+                    completeTask();
                 }
             });
             downloadingTask.start(HelperBroadcastReceiver.URL, path);
+            downloadWatchHandler.removeCallbacks(downloadWatchRunnable);
+            downloadWatchRunnable = () -> {
+                if (downloadStatus == DownloadingTask.ACTION_STARTED || downloadStatus == DownloadingTask.ACTION_PROGRESS) {
+                    downloadStatus = DownloadingTask.ACTION_FAILED;
+                    getBinding().txtStatus.setText("Downloading timeout. Please try again in few minutes.");
+                    getBinding().progressBar.setVisibility(View.GONE);
+                    downloadingTask.cancel(true);
+                }
+            };
+            downloadWatchHandler.postDelayed(downloadWatchRunnable, 1000 * 60 * 1);
         } catch (URISyntaxException ex) {
             ex.printStackTrace();
         }

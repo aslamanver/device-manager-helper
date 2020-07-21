@@ -8,8 +8,8 @@ android {
         applicationId "com.aslam.dmh"
         minSdkVersion 22
         targetSdkVersion 29
-        versionCode 1120
-        versionName "1.1.20"
+        versionCode 1155
+        versionName "1.1.55"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

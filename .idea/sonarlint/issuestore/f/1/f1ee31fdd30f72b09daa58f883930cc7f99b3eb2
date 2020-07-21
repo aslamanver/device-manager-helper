@@ -1,31 +1,43 @@
 
-Q
-java:S1874"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ
-N
-java:S1197E"8Move the array designator from the variable to the type.(²ÙÜœ
-N
-java:S1874b"3Remove this use of "setProgress"; it is deprecated.(í­æÑúÿÿÿÿ
-k
-java:S1450"VRemove the "context" field and declare it as a local variable in the relevant methods.(êİç
-M
-java:S18743"2Remove this use of "setMessage"; it is deprecated.(“¶ğ÷şÿÿÿÿ
-I
-java:S1874m"3Remove this use of "setProgress"; it is deprecated.(®ÿŒÓ
-i
-java:S2095D"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(¦²÷‹øÿÿÿÿ
 n
-java:S1602)"SRemove useless curly braces around statement and then remove useless return keyword(ŒĞ‘ıÿÿÿÿ
-L
-java:S18744"6Remove this use of "ProgressDialog"; it is deprecated.(•‹Ñï
+java:S2095\"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(®ÍØĞ8à¥şş¶.
+M
+java:S18748"2Remove this use of "setMessage"; it is deprecated.(“¶ğ÷şÿÿÿÿ
+U
+java:S18749"8Remove this use of "setProgressStyle"; it is deprecated.(•‹Ñï8ãñış¶.
+S
+java:S18749"6Remove this use of "ProgressDialog"; it is deprecated.(•‹Ñï8ãñış¶.
+
+java:S1186L"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”Ê•¡8ãñış¶.
+b
+java:S4830H"@Enable server certificate validation on this SSL/TLS connection.(¹„Á¦ÿÿÿÿÿ8ãñış¶.
+]
+java:S4830L"@Enable server certificate validation on this SSL/TLS connection.(”Ê•¡8ãñış¶.
+X
+java:S1874!"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ8ãñış¶.
+U
+java:S18749"8Remove this use of "STYLE_HORIZONTAL"; it is deprecated.(•‹Ñï8ãñış¶.
+C
+java:S1168E"&Return an empty array instead of null.(¥¹ï8ãñış¶.
+u
+java:S1602."SRemove useless curly braces around statement and then remove useless return keyword(ŒĞ‘ıÿÿÿÿ8ãñış¶.
+Y
+java:S1117c"<Rename "progress" which hides the field declared at line 35.(Ä»éø8üŠ¶ÿ¶.
 Q
-java:S18742"6Remove this use of "ProgressDialog"; it is deprecated.(ğíµüÿÿÿÿ
+java:S1874†"3Remove this use of "setProgress"; it is deprecated.(®ÿŒÓ8à¥şş¶.
+G
+java:S1068"+Remove this unused "context" private field.(êİç8ãñış¶.
 N
-java:S18744"8Remove this use of "setProgressStyle"; it is deprecated.(•‹Ñï
-@
-java:S1068"+Remove this unused "context" private field.(êİç
-R
-java:S1117J"<Rename "progress" which hides the field declared at line 30.(Ä»éø
-N
-java:S18744"8Remove this use of "STYLE_HORIZONTAL"; it is deprecated.(•‹Ñï
-g
-java:S2095C"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(®ÍØĞ
+java:S4423Q",Change this code to use a stronger protocol.(êßö ûÿÿÿÿ8à¥şş¶.
+U
+java:S1197^"8Move the array designator from the variable to the type.(²ÙÜœ8üŠ¶ÿ¶.
+r
+java:S1450"VRemove the "context" field and declare it as a local variable in the relevant methods.(êİç8ãñış¶.
+Q
+java:S18747"6Remove this use of "ProgressDialog"; it is deprecated.(ğíµüÿÿÿÿ
+U
+java:S1874{"3Remove this use of "setProgress"; it is deprecated.(í­æÑúÿÿÿÿ8à¥şş¶.
+£
+java:S1186H"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹„Á¦ÿÿÿÿÿ8ãñış¶.
+p
+java:S2095]"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(¦²÷‹øÿÿÿÿ8à¥şş¶.
